@@ -1,17 +1,17 @@
-## Project Overview
-This repository contains the backend code for the web application, built using **Laravel**. It provides a RESTful API for managing and processing data, handling authentication, and supporting real-time features.
+## Real Time Chat Application
+This is a Realtime Chat Application built with Laravel **Livewire**, **Tailwind CSS**, and **Reverb** for managing real time messages when messaging you friends and loved ones.
 
 ## Features
-- **Laravel Framework**: Robust and scalable backend.
-- **Authentication**: Secure user authentication and authorization.
-- **API Endpoints**: Provides data and functionality for the frontend.
-- **Real-Time Features**: Supports WebSocket for real-time communication.
-- **File Management**: Handles uploads and file processing.
+- **Realtime Messaging**: Instantly chat with other users in realtime.
+- **User Authentication**: Secure user registration and authentication system.
+- **Message History**: View past messages and conversations.
+- **Responsive Design**: Mobile-friendly interface built with Tailwind CSS.
 
 ## Technologies Used
-- Laravel
-- SQlite (or other DBMS if applicable)
-- Laravel Sanctum for API authentication
+- Laravel: Backend framework for building robust web applications.
+- Livewire: Full-stack framework for Laravel to build dynamic interfaces.
+- Tailwind CSS: Utility-first CSS framework for quickly styling your application.
+- Reverb: Library for managing and handling realtime events.
 
 ## Setup Instructions
 
@@ -22,7 +22,7 @@ This repository contains the backend code for the web application, built using *
 
 2. **Navigate to the project directory:**
    ```bash
-   cd backend-repo
+   cd realtime-chat-application
    ```
 
 3. **Install dependencies:**
@@ -61,8 +61,6 @@ To deploy the backend application, you can use platforms like **AWS**, **Digital
 - Use a queue worker for background tasks.
 - Set up SSL for secure communication.
 
-## API Documentation
-For detailed API documentation, refer to the `docs/api-documentation.md` file or tools like **Postman** or **Swagger** (if implemented).
 
 ---
 
