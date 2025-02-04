@@ -17,7 +17,7 @@ This repository contains the backend code for the web application, built using *
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/amos-babu/dxf_downloader_uploader-backend.git
+   git clone https://github.com/amos-babu/realtime-chat-application
    ```
 
 2. **Navigate to the project directory:**
