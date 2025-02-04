@@ -8,10 +8,10 @@ This is a Realtime Chat Application built with Laravel **Livewire**, **Tailwind 
 - **Responsive Design**: Mobile-friendly interface built with Tailwind CSS.
 
 ## Technologies Used
-- Laravel: Backend framework for building robust web applications.
-- Livewire: Full-stack framework for Laravel to build dynamic interfaces.
-- Tailwind CSS: Utility-first CSS framework for quickly styling your application.
-- Reverb: Library for managing and handling realtime events.
+- **Laravel**: Backend framework for building robust web applications.
+- **Livewire**: Full-stack framework for Laravel to build dynamic interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for quickly styling your application.
+- **Reverb**: Library for managing and handling realtime events.
 
 ## Setup Instructions
 
@@ -34,10 +34,11 @@ This is a Realtime Chat Application built with Laravel **Livewire**, **Tailwind 
    ```bash
    cp .env.example .env
    ```
+   
    Update the following:
    - Database credentials
    - API URL
-   - Real-time broadcast driver (e.g., Pusher)
+   - Real-time broadcast driver (Reverb)
 
 5. **Generate the application key:**
    ```bash
